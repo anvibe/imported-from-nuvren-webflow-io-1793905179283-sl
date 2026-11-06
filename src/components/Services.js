@@ -23,9 +23,9 @@ export default function Services() {
   return (
     <section className="services" id="services">
       <div className="container">
-        <div className="services-head">
-          <span className="eyebrow" data-cms-key="text_20">03 / What we do</span>
-          <span className="services-aside" data-cms-key="text_21">From first sketch to final pixel.</span>
+        <div data-cms-key="text_17" className="services-head">
+          <span className="eyebrow">03 / What we do</span>
+          <span className="services-aside">From first sketch to final pixel.</span>
         </div>
         <ul className="service-list">
           {services.map((s, i) => (

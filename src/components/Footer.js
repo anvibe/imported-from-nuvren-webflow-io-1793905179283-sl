@@ -8,13 +8,13 @@ export default function Footer() {
     <footer className="footer" id="contact">
       <div className="container">
         <div className="cta">
-          <h2 data-cms-key="heading_4" className="cta-title">
+          <h2 data-cms-key="heading_2" className="cta-title">
             Got a hunch?
             <br />
             Let's chase it.
           </h2>
           <a className="btn btn-lime" href="mailto:hello@orvane.studio">
-            <span data-cms-key="text_12">Start a conversation</span>
+            <span data-cms-key="text_10">Start a conversation</span>
             <ArrowUpRight size={18} strokeWidth={1.5} />
           </a>
         </div>
@@ -39,11 +39,11 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className="wordmark" aria-hidden="true" data-cms-key="text_13">orvane</div>
+        <div data-cms-key="text_11" className="wordmark" aria-hidden="true">orvane</div>
 
-        <div className="footer-bottom">
-          <span data-cms-key="text_14">© 2026 ORVANE. Independent by design.</span>
-          <span data-cms-key="text_15">LISBON / REMOTE</span>
+        <div data-cms-key="text_12" className="footer-bottom">
+          <span>© 2026 ORVANE. Independent by design.</span>
+          <span>LISBON / REMOTE</span>
         </div>
       </div>
     </footer>

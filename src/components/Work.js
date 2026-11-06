@@ -32,14 +32,14 @@ export default function Work() {
   return (
     <section className="work" id="projects">
       <div className="work-inner">
-        <div className="section-label-row">
-          <span className="eyebrow eyebrow-light" data-cms-key="text_8">01 / Selected work</span>
+        <div data-cms-key="text_6" className="section-label-row">
+          <span className="eyebrow eyebrow-light">01 / Selected work</span>
         </div>
         <div className="work-head">
-          <Reveal as="h2" className="work-title" data-cms-key="heading_1">
+          <Reveal as="h2" className="work-title">
             Crafted to be remembered.
           </Reveal>
-          <Reveal as="p" className="work-blurb" delay={120} data-cms-key="paragraph_3">
+          <Reveal as="p" className="work-blurb" delay={120}>
             Identities, products and visual worlds built alongside people who sweat the details.
           </Reveal>
         </div>
@@ -64,9 +64,9 @@ export default function Work() {
         </div>
 
         <div className="work-foot">
-          <span className="eyebrow eyebrow-light" data-cms-key="text_9">Every project starts with curiosity.</span>
+          <span data-cms-key="text_7" className="eyebrow eyebrow-light">Every project starts with curiosity.</span>
           <a className="btn btn-lime" href="#contact">
-            <span data-cms-key="text_10">Start something new</span>
+            <span data-cms-key="text_8">Start something new</span>
             <ArrowUpRight size={18} strokeWidth={1.5} />
           </a>
         </div>

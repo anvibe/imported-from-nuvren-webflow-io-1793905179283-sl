@@ -34,8 +34,8 @@ export default function Process() {
   return (
     <section className="process">
       <div className="container">
-        <span className="eyebrow" data-cms-key="text_19">04 / How we get there</span>
-        <h2 className="process-title" data-cms-key="heading_3">Just enough structure. Plenty of room to play.</h2>
+        <span data-cms-key="text_16" className="eyebrow">04 / How we get there</span>
+        <h2 data-cms-key="heading_4" className="process-title">Just enough structure. Plenty of room to play.</h2>
         <div className="process-grid">
           <div className="process-visual">
             <div className="process-sticky">
