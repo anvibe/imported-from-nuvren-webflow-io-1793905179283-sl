@@ -9,7 +9,7 @@ export default function Studio() {
         <span className="eyebrow" data-cms-key="text_18">02 / The studio</span>
         <div className="studio-grid">
           <Reveal className="studio-left">
-            <h2 className="studio-title">
+            <h2 data-cms-key="heading_5" className="studio-title">
               Few hands.
               <br />
               Wide horizons.
@@ -17,7 +17,7 @@ export default function Studio() {
             <Asterisk className="studio-star" strokeWidth={14} />
           </Reveal>
           <Reveal className="studio-right" delay={120}>
-            <p className="studio-lead">
+            <p data-cms-key="paragraph_7" className="studio-lead">
               Clarity comes first.
               <br />
               The surprise comes right after.

@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="footer" id="contact">
       <div className="container">
         <div className="cta">
-          <h2 className="cta-title">
+          <h2 data-cms-key="heading_4" className="cta-title">
             Got a hunch?
             <br />
             Let's chase it.
